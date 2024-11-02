@@ -1,0 +1,57 @@
+/* div {
+    background: #efefef;
+    padding: 20px;
+}
+
+
+.text {
+    color: black;
+    font-size: 14px;
+}
+
+
+@media screen and (orientation: portrait){
+     div {
+        background-color: blue;
+        
+     }
+
+     .text{
+        font-size: 18px;
+     }
+
+} */
+
+
+
+body {
+  color: red;  
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtitle{
+    font-size: 4rem;
+}
+
+@media  (max-width: 500px){
+
+    body{
+        color: blue;
+    }
+
+}
+
+@media (orientation: landscape) and (max-width: 500px){
+    .title {
+        color: green;
+    }
+}
+
+@media (orientation: portrait){
+    .subtitle {
+        color: cyan;
+    }
+}
